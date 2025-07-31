@@ -128,32 +128,35 @@ Herramientas y Despliegue:
 Para poner en marcha este proyecto en tu entorno local, sigue estos sencillos pasos:
 
 Clona el Repositorio:
-
-Bash
+---
 
 git clone https://github.com/tu-usuario/business-automation-dashboard.git
 cd business-automation-dashboard
+
+---
+
 Configura el Frontend (Next.js):
-
-Bash
-
+---
 cd frontend
 npm install # o yarn install
 cp .env.example .env.local # Configura tus variables de entorno, ej. NEXT_PUBLIC_BACKEND_URL
 npm run dev # o yarn dev
+
+---
+
 Configura el Backend (Python FastAPI):
-
-Bash
-
+---
 cd ../backend
 pip install -r requirements.txt # Instala todas las dependencias de Python
 cp .env.example .env # Configura tus variables de entorno, ej. DATABASE_URL, N8N_WEBHOOK_URL
 uvicorn main:app --reload # Inicia el servidor FastAPI
+
+---
+
 Configura N8N (Flujos de Trabajo de Automatización):
+---
 
 Asegúrate de tener una instancia de n8n corriendo (localmente con Docker o una instancia en la nube).
-
-Bash
 
 ---
 
