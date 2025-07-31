@@ -13,11 +13,14 @@ ofreciendo automatización en tiempo real y visibilidad de datos sin precedentes
 Nuestro enfoque es claro: convertir la complejidad operativa en simplicidad automatizada, liberando recursos valiosos y acelerando el crecimiento del negocio.
 
 ---
-🎯 Propuesta de Valor: Donde la Tecnología Encuentra el Impacto Real
-En el panorama empresarial actual, la eficiencia y la automatización no son un lujo, son una necesidad crítica. Este dashboard es la respuesta directa a desafíos como:
----
-- Reducción de Costos Operativos: Automatiza tareas manuales repetitivas que consumen incontables horas y recursos, resultando en ahorros significativos y un ROI tangible.
 
+🎯 Propuesta de Valor
+---
+
+Donde la Tecnología Encuentra el Impacto Real
+En el panorama empresarial actual, la eficiencia y la automatización no son un lujo, son una necesidad crítica. Este dashboard es la respuesta directa a desafíos como:
+
+- Reducción de Costos Operativos: Automatiza tareas manuales repetitivas que consumen incontables horas y recursos, resultando en ahorros significativos y un ROI tangible
 - Decisiones Basadas en Datos al Segundo: Proporciona un flujo constante de información en tiempo real, capacitando a líderes y equipos para tomar decisiones ágiles y fundamentadas, superando los límites de los informes estáticos.
 
 - Escalabilidad Sin Esfuerzo: Construido con una arquitectura diseñada para crecer, este dashboard se adapta fluidamente a las necesidades de startups en expansión y empresas medianas con operaciones complejas.
