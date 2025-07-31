@@ -70,33 +70,33 @@ Nuestro compromiso con la excelencia se refleja en la elección de un stack tecn
 Frontend:
 ---
 
-Next.js 14 / React 18 & TypeScript: Framework de React con SSR/SSG, tipado estático para escalabilidad y mantenibilidad.
+- Next.js 14 / React 18 & TypeScript: Framework de React con SSR/SSG, tipado estático para escalabilidad y mantenibilidad.
 
-Shadcn UI & v0: Biblioteca de componentes y principios de diseño para una UI elegante y adaptable.
+- Shadcn UI & v0: Biblioteca de componentes y principios de diseño para una UI elegante y adaptable.
 
-Tailwind CSS: Framework CSS utilitario para un desarrollo de estilos rápido y consistente.
+- Tailwind CSS: Framework CSS utilitario para un desarrollo de estilos rápido y consistente.
 
 SWR: Librería de React Hooks para la obtención de datos con caching, revalidación y sincronización en tiempo real.
 ---
 
 Backend:
 ---
-Python FastAPI: Framework web de alto rendimiento para la construcción de APIs RESTful robustas y eficientes.
+- Python FastAPI: Framework web de alto rendimiento para la construcción de APIs RESTful robustas y eficientes.
 
-n8n: Herramienta de automatización de código bajo/sin código para orquestación de flujos de trabajo y conectividad de servicios.
+- n8n: Herramienta de automatización de código bajo/sin código para orquestación de flujos de trabajo y conectividad de servicios.
 
 Base de Datos: Configurado para SQLite en desarrollo local, con una transición fluida a PostgreSQL en producción.
 ---
 
 Herramientas y Despliegue:
 ---
-Git / GitHub: Control de versiones, colaboración y alojamiento del repositorio.
+- Git / GitHub: Control de versiones, colaboración y alojamiento del repositorio.
 
-Vercel: Plataforma de despliegue para el frontend Next.js (optimizado para rendimiento y escalabilidad).
+- Vercel: Plataforma de despliegue para el frontend Next.js (optimizado para rendimiento y escalabilidad).
 
-Railway / Render: Opciones de despliegue para el backend Python (servicios PaaS eficientes y escalables).
+- Railway / Render: Opciones de despliegue para el backend Python (servicios PaaS eficientes y escalables).
 
-Docker: Para la contenerización de servicios y despliegues consistentes.
+- Docker: Para la contenerización de servicios y despliegues consistentes.
 
 ---
 🚀 Guía de Inicio Rápido (Desarrolladores)
