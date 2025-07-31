@@ -4,13 +4,20 @@
 -
 ![Next.js](https://img.shields.io/badge/Next.js-14.2.5-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-0.8.0-000000?style=for-the-badge&logo=shadcn-ui&logoColor=white)
+![SWR](https://img.shields.io/badge/SWR-2.2.5-000000?style=for-the-badge&logo=swr&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.111.0-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-1.47.0-FF5C00?style=for-the-badge&logo=n8n&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-26.1.4-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-2.45.2-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)
 
-  [🌐 **Ver Demo en Vivo**](https://task-manager-1vnzvl6v4-benjaminmillalonc-6594s-projects.vercel.app) • [📂 **Código Fuente**](https://github.com/hxcCoder/task-manager-pro) • [👨‍💻 **Mi Portfolio**](https://github.com/hxcCoder)
+  [🌐 **Ver Demo en Vivo**](https://vercel.com/benjaminmillalonc-6594s-projects/automation-dashboard) • [📂 **Código Fuente**](https://github.com/hxcCoder/task-manager-pro) • [👨‍💻 **Mi Portfolio**](https://github.com/hxcCoder)
   </div>
   
 ![i1](https://github.com/user-attachments/assets/9761ed2e-eb8d-4cf8-8cdb-8de5607efe7a)
