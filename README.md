@@ -6,6 +6,14 @@
   
 ![i1](https://github.com/user-attachments/assets/9761ed2e-eb8d-4cf8-8cdb-8de5607efe7a)
 
+![Next.js](https://img.shields.io/badge/Next.js-14.2.5-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.111.0-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-1.47.0-FF5C00?style=for-the-badge&logo=n8n&logoColor=white)
+
   [🌐 **Ver Demo en Vivo**](https://task-manager-1vnzvl6v4-benjaminmillalonc-6594s-projects.vercel.app) • [📂 **Código Fuente**](https://github.com/hxcCoder/task-manager-pro) • [👨‍💻 **Mi Portfolio**](https://github.com/hxcCoder)
 ---
 
