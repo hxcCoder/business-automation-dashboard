@@ -5,11 +5,13 @@
 Este Business Automation Dashboard es una plataforma full-stack robusta y escalable
 diseñada para transformar la eficiencia operativa y
 la toma de decisiones estratégicas en cualquier organización.
---
+---
 Combina la vanguardia tecnológica con una profunda comprensión de las necesidades empresariales,
 ofreciendo automatización en tiempo real y visibilidad de datos sin precedentes.
+
 ---
 Nuestro enfoque es claro: convertir la complejidad operativa en simplicidad automatizada, liberando recursos valiosos y acelerando el crecimiento del negocio.
+
 ---
 🎯 Propuesta de Valor: Donde la Tecnología Encuentra el Impacto Real
 En el panorama empresarial actual, la eficiencia y la automatización no son un lujo, son una necesidad crítica. Este dashboard es la respuesta directa a desafíos como:
