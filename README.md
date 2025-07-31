@@ -2,10 +2,6 @@
   
 🌟 Business Automation Dashboard | Solución Full-Stack para la Excelencia Operacional
 -
-  </div>
-  
-![i1](https://github.com/user-attachments/assets/9761ed2e-eb8d-4cf8-8cdb-8de5607efe7a)
-
 ![Next.js](https://img.shields.io/badge/Next.js-14.2.5-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -15,6 +11,11 @@
 ![n8n](https://img.shields.io/badge/n8n-1.47.0-FF5C00?style=for-the-badge&logo=n8n&logoColor=white)
 
   [🌐 **Ver Demo en Vivo**](https://task-manager-1vnzvl6v4-benjaminmillalonc-6594s-projects.vercel.app) • [📂 **Código Fuente**](https://github.com/hxcCoder/task-manager-pro) • [👨‍💻 **Mi Portfolio**](https://github.com/hxcCoder)
+  </div>
+  
+![i1](https://github.com/user-attachments/assets/9761ed2e-eb8d-4cf8-8cdb-8de5607efe7a)
+
+
 ---
 
 Este Business Automation Dashboard es una plataforma full-stack robusta y escalable
