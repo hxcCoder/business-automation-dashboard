@@ -1,6 +1,6 @@
 🌟 Business Automation Dashboard | Solución Full-Stack para la Excelencia Operacional
 -
-![![i1](https://github.com/user-attachments/assets/9761ed2e-eb8d-4cf8-8cdb-8de5607efe7a)]
+![i1](https://github.com/user-attachments/assets/9761ed2e-eb8d-4cf8-8cdb-8de5607efe7a)]
 ---
 Este Business Automation Dashboard es una plataforma full-stack robusta y escalable
 diseñada para transformar la eficiencia operativa y
