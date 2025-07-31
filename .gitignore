@@ -1,36 +1,61 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+Tu .gitignore para un Proyecto Full-Stack
+¡Aquí tienes el código listo para copiar y pegar!
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+Crea un archivo llamado .gitignore (asegúrate de que no tenga ninguna extensión adicional) en la raíz de tu directorio de proyecto principal. Luego, copia y pega todo el siguiente contenido dentro de ese archivo:
 
-# testing
-/coverage
+Fragmento de código
 
-# next.js
-/.next/
-/out/
+# -----------------------------------------------------------------------------
+# Configuraciones generales de Git y Sistema Operativo
+# -----------------------------------------------------------------------------
+.DS_Store          # Archivos de macOS
+.vscode/           # Configuraciones de VS Code (opcional, si no quieres compartirlas)
+*.log              # Archivos de log
+npm-debug.log* # Logs de NPM
+yarn-debug.log* # Logs de Yarn
+yarn-error.log* # Errores de Yarn
+.env               # Archivos de variables de entorno (¡CRUCIAL!)
+.env.local         # Archivos de variables de entorno locales (Next.js)
+.env.development.local
+.env.test.local
+.env.production.local
+Thumbs.db          # Archivos de Windows
 
-# production
-/build
+# -----------------------------------------------------------------------------
+# Frontend (Next.js / React)
+# -----------------------------------------------------------------------------
+/frontend/node_modules
+/frontend/.next/          # Carpeta de build de Next.js
+/frontend/out/            # Carpeta de exportación estática de Next.js
+/frontend/npm-debug.log
+/frontend/yarn-error.log
+/frontend/.env.local      # Repetir para seguridad si tienes uno específico en frontend
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
 
-# misc
-.DS_Store
-*.pem
+# -----------------------------------------------------------------------------
+# Backend (Python FastAPI)
+# -----------------------------------------------------------------------------
+/backend/__pycache__/    # Carpeta de caché de Python
+/backend/.pytest_cache/  # Caché de Pytest
+/backend/.venv/          # Entornos virtuales (venv)
+/backend/*.pyc           # Archivos bytecode de Python
+/backend/*.sqlite3       # Archivos de base de datos SQLite (si usas SQLite localmente)
+/backend/instance/       # Carpeta de instancia (Flask, a veces similar en FastAPI)
+/backend/.env            # Repetir para seguridad si tienes uno específico en backend
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# -----------------------------------------------------------------------------
+# N8N
+# -----------------------------------------------------------------------------
+# Si tu setup de n8n guarda archivos sensibles o bases de datos locales:
+/n8n/.n8n/               # Datos de usuario de n8n (flujos de trabajo, credenciales)
+/n8n/database.sqlite     # Si n8n usa SQLite para sus propios datos
 
-# local env files
-.env*.local
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# -----------------------------------------------------------------------------
+# Otros archivos generados / temporales
+# -----------------------------------------------------------------------------
+/coverage/         # Reportes de cobertura de tests
+/build/            # Carpeta de salida general si no es .next o dist
+/dist/             # Carpeta de distribución general
+node_modules
