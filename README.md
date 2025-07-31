@@ -33,19 +33,35 @@ En el panorama empresarial actual, la eficiencia y la automatización no son un 
 ---
 1. Integración Full-Stack Sin Fisuras
 ---
+
 * **Frontend de Alto Rendimiento:** Desarrollado con **Next.js 14 y TypeScript**, la misma pila que impulsa gigantes como Netflix y Airbnb, garantiza una interfaz de usuario dinámica, reactiva y optimizada para el SEO.
+
 * **Backend Robusto y Escalable:** Construido con **Python FastAPI**, una elección de ingeniería utilizada por líderes como Uber y Microsoft, asegura una API potente, rápida y fiable, capaz de manejar grandes volúmenes de datos y solicitudes.
+---
+
 2. Automatización Inteligente con n8n y Webhooks
+---
+
 * **Motor de Automatización Empresarial:** Integración profunda con **n8n** para orquestar flujos de trabajo de negocio complejos. Conecta con CRM, sistemas de email, plataformas de marketing y más, permitiendo automatizar todo, desde la gestión de leads hasta las notificaciones y los informes.
 * **Conectividad Versátil vía Webhooks:** Utiliza webhooks para una comunicación bidireccional y en tiempo real, asegurando que tus datos y procesos automatizados estén siempre sincronizados entre sistemas.
+---
+
 3. Experiencia de Datos en Tiempo Real (SWR)
+---
 * **Dashboards Dinámicos:** Visualización de **datos reales provenientes del backend Python** con actualizaciones automáticas cada pocos segundos, gracias a la implementación de **SWR (Stale-While-Revalidate)** para una gestión de caché inteligente y eficiente.
+
 * **Indicador de Conectividad de API:** Un indicador visual "API Conectada" proporciona retroalimentación instantánea sobre el estado de la comunicación con el backend, aumentando la confianza del usuario.
+---
+
 4. Resiliencia y Rendimiento Optimizado
+---
 * **Manejo de Errores Robusto:** Arquitectura sólida con estrategias de manejo de errores en todo el stack, asegurando la estabilidad de la aplicación incluso bajo condiciones adversas.
 * **Fallback Inteligente:** En caso de indisponibilidad de la API, el sistema ofrece un **fallback a datos "mock"**, manteniendo la funcionalidad de la interfaz y la experiencia del usuario.
 * **Rendimiento Superior:** Optimización avanzada con técnicas de caché para garantizar tiempos de carga ultrarrápidos y una respuesta instantánea.
+---
+
 5. Componentes de Diseño y Navegación Profesional
+---
 * **Diseño Moderno con Shadcn UI & v0:** Implementación de componentes de interfaz de usuario limpios y personalizables a través de **Shadcn UI** y principios de diseño con **v0**, garantizando una estética profesional y una experiencia de usuario intuitiva.
 * **Estructura de Navegación Lógica:** Incluye páginas esenciales como `Home`, `Docs` y otras secciones para una navegación clara y una base extensible para futuras funcionalidades.
 ⚙️ Stack Tecnológico: La Columna Vertebral de la Innovación
