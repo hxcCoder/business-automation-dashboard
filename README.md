@@ -1,6 +1,10 @@
-
+<div align="center">
+  
 🌟 Business Automation Dashboard | Solución Full-Stack para la Excelencia Operacional
+  [🌐 **Ver Demo en Vivo**](https://task-manager-1vnzvl6v4-benjaminmillalonc-6594s-projects.vercel.app) • [📂 **Código Fuente**](https://github.com/hxcCoder/task-manager-pro) • [👨‍💻 **Mi Portfolio**](https://github.com/hxcCoder)
 -
+  </div>
+  
 ![i1](https://github.com/user-attachments/assets/9761ed2e-eb8d-4cf8-8cdb-8de5607efe7a)
 ---
 Este Business Automation Dashboard es una plataforma full-stack robusta y escalable
