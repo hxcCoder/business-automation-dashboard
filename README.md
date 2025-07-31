@@ -156,15 +156,18 @@ Asegúrate de tener una instancia de n8n corriendo (localmente con Docker o una 
 Bash
 
 ---
+
 # Ejemplo para ejecutar n8n con Docker:
 ---
 
 docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 Importa los flujos de trabajo (.json si los tienes) y configura las credenciales y los webhooks necesarios para que interactúen con tu backend Python.
+
 ---
 
 🤝 Colaboración y Contacto
 ---
+
 Estoy abierto a la colaboración y a desafíos técnicos que impulsen la innovación y generen un impacto de negocio real. Si encuentras un error, tienes una sugerencia de mejora o te interesa discutir cómo esta solución puede transformar tus operaciones, por favor:
 ---
 - Abre un 'Issue' en este repositorio.
