@@ -1,10 +1,3 @@
-Tu .gitignore para un Proyecto Full-Stack
-¡Aquí tienes el código listo para copiar y pegar!
-
-Crea un archivo llamado .gitignore (asegúrate de que no tenga ninguna extensión adicional) en la raíz de tu directorio de proyecto principal. Luego, copia y pega todo el siguiente contenido dentro de ese archivo:
-
-Fragmento de código
-
 # -----------------------------------------------------------------------------
 # Configuraciones generales de Git y Sistema Operativo
 # -----------------------------------------------------------------------------
