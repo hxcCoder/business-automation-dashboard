@@ -109,6 +109,7 @@ Backend:
 - n8n: Herramienta de automatización de código bajo/sin código para orquestación de flujos de trabajo y conectividad de servicios.
 
 Base de Datos: Configurado para SQLite en desarrollo local, con una transición fluida a PostgreSQL en producción.
+
 ---
 
 Herramientas y Despliegue:
