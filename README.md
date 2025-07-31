@@ -29,7 +29,7 @@ En el panorama empresarial actual, la eficiencia y la automatización no son un 
 
 - Este proyecto no es meramente una demostración técnica; es una herramienta estratégica que genera valor de negocio medible y transforma el potencial en resultados.
 ---
-✨ Características Clave: Diseñado para la Excelencia
+✨ Características Clave
 ---
 1. Integración Full-Stack Sin Fisuras
 ---
