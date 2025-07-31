@@ -59,3 +59,5 @@ Thumbs.db          # Archivos de Windows
 /build/            # Carpeta de salida general si no es .next o dist
 /dist/             # Carpeta de distribución general
 node_modules
+
+.vercel

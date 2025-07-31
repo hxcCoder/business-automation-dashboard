@@ -27,12 +27,12 @@ export default function DashboardPage() {
 
   // 🎯 CALCULAR TOP WORKFLOWS
   const topWorkflows = workflows
-    .sort((a, b) => b.total_executions - a.total_executions)
+    .sort((a, b) => b.totalExecutions - a.totalExecutions)
     .slice(0, 3)
 
   // 🎯 CÁLCULOS DINÁMICOS
-  const todaySuccessRate = stats ? ((stats.executions_today - stats.errors_today) / stats.executions_today) * 100 : 0
-  const timeSavedToday = stats ? stats.total_time_saved * 0.05 : 0
+  const todaySuccessRate = stats ? ((stats.executionsToday - stats.errorsToday) / stats.executionsToday) * 100 : 0
+  const timeSavedToday = stats ? stats.totalTimeSaved * 0.05 : 0
   const roiToday = calculateROI(timeSavedToday)
 
   // 🎯 LOADING STATE
@@ -126,14 +126,14 @@ export default function DashboardPage() {
             </CardHeader>
             <CardContent>
               <div className="text-3xl font-bold text-gray-900 mb-2">
-                {stats?.active_workflows || 0}
-                <span className="text-lg text-gray-500">/{stats?.total_workflows || 0}</span>
+                {stats?.activeWorkflows || 0}
+                <span className="text-lg text-gray-500">/{stats?.totalWorkflows || 0}</span>
               </div>
-              <Progress value={stats ? (stats.active_workflows / stats.total_workflows) * 100 : 0} className="mb-2" />
+              <Progress value={stats ? (stats.activeWorkflows / stats.totalWorkflows) * 100 : 0} className="mb-2" />
               <div className="flex items-center text-sm">
                 <ArrowUpRight className="h-3 w-3 text-green-500 mr-1" />
                 <span className="text-green-600 font-medium">
-                  {stats ? Math.round((stats.active_workflows / stats.total_workflows) * 100) : 0}% operativos
+                  {stats ? Math.round((stats.activeWorkflows / stats.totalWorkflows) * 100) : 0}% operativos
                 </span>
               </div>
             </CardContent>
@@ -148,10 +148,10 @@ export default function DashboardPage() {
               </div>
             </CardHeader>
             <CardContent>
-              <div className="text-3xl font-bold text-green-600 mb-2">{stats?.success_rate || 0}%</div>
-              <Progress value={stats?.success_rate || 0} className="mb-2" />
+              <div className="text-3xl font-bold text-green-600 mb-2">{stats?.successRate || 0}%</div>
+              <Progress value={stats?.successRate || 0} className="mb-2" />
               <div className="flex items-center justify-between text-sm">
-                <span className="text-gray-500">{stats?.total_executions?.toLocaleString() || 0} ejecuciones</span>
+                <span className="text-gray-500">{stats?.totalExecutions?.toLocaleString() || 0} ejecuciones</span>
                 <div className="flex items-center text-green-600">
                   <TrendingUp className="h-3 w-3 mr-1" />
                   <span className="font-medium">+2.3%</span>
@@ -170,7 +170,7 @@ export default function DashboardPage() {
             </CardHeader>
             <CardContent>
               <div className="text-3xl font-bold text-purple-600 mb-2">
-                {stats?.total_time_saved?.toFixed(1) || 0}h
+                {stats?.totalTimeSaved?.toFixed(1) || 0}h
               </div>
               <div className="text-sm text-gray-500 mb-2">
                 Hoy: {timeSavedToday.toFixed(1)}h
@@ -192,7 +192,7 @@ export default function DashboardPage() {
             </CardHeader>
             <CardContent>
               <div className="text-3xl font-bold text-green-600 mb-2">
-                ${stats?.total_roi?.toLocaleString() || 0}
+                ${stats?.totalROI?.toLocaleString() || 0}
               </div>
               <div className="text-sm text-gray-500 mb-2">
                 Hoy: ${roiToday.toFixed(0)}
@@ -255,26 +255,26 @@ export default function DashboardPage() {
                               )}
                             </div>
                             <div className="flex-1">
-                              <p className="font-semibold text-gray-900">{execution.workflow_name}</p>
+                              <p className="font-semibold text-gray-900">{execution.workflowName}</p>
                               <div className="flex items-center gap-4 text-sm text-gray-500 mt-1">
-                                <span>{formatDate(new Date(execution.start_time))}</span>
+                                <span>{formatDate(new Date(execution.startTime))}</span>
                                 <span>•</span>
                                 <span className="flex items-center gap-1">
                                   <Play className="h-3 w-3" />
-                                  {execution.triggered_by}
+                                  {execution.triggeredBy}
                                 </span>
-                                {execution.data_processed > 0 && (
+                                {execution.dataProcessed > 0 && (
                                   <>
                                     <span>•</span>
-                                    <span>{execution.data_processed} registros</span>
+                                    <span>{execution.dataProcessed} registros</span>
                                   </>
                                 )}
                               </div>
-                              {execution.error_message && (
+                              {execution.errorMessage && (
                                 <div className="mt-2 p-2 bg-red-50 rounded-lg">
                                   <p className="text-sm text-red-700 flex items-center gap-1">
                                     <AlertCircle className="h-3 w-3" />
-                                    {execution.error_message}
+                                    {execution.errorMessage}
                                   </p>
                                 </div>
                               )}
@@ -357,20 +357,20 @@ export default function DashboardPage() {
                         <div className="grid grid-cols-2 gap-4 text-sm">
                           <div>
                             <p className="text-gray-500">Ejecuciones</p>
-                            <p className="font-semibold text-gray-900">{workflow.total_executions?.toLocaleString() || 0}</p>
+                            <p className="font-semibold text-gray-900">{workflow.totalExecutions?.toLocaleString() || 0}</p>
                           </div>
                           <div>
                             <p className="text-gray-500">Éxito</p>
-                            <p className="font-semibold text-green-600">{workflow.success_rate || 0}%</p>
+                            <p className="font-semibold text-green-600">{workflow.successRate || 0}%</p>
                           </div>
                         </div>
                         
-                        <Progress value={workflow.success_rate || 0} className="h-2" />
+                        <Progress value={workflow.successRate || 0} className="h-2" />
                         
                         <div className="flex justify-between items-center text-xs text-gray-500 pt-2 border-t">
-                          <span>{workflow.time_saved_hours?.toFixed(1) || 0}h ahorradas</span>
+                          <span>{workflow.timeSavedHours?.toFixed(1) || 0}h ahorradas</span>
                           <span className="font-semibold text-green-600">
-                            ${calculateROI(workflow.time_saved_hours || 0).toLocaleString()} ROI
+                            ${calculateROI(workflow.timeSavedHours || 0).toLocaleString()} ROI
                           </span>
                         </div>
                       </div>
@@ -396,7 +396,7 @@ export default function DashboardPage() {
                       <Play className="h-4 w-4 text-blue-600" />
                       <span className="text-sm font-medium text-gray-700">Ejecuciones</span>
                     </div>
-                    <span className="font-bold text-blue-600">{stats?.executions_today || 0}</span>
+                    <span className="font-bold text-blue-600">{stats?.executionsToday || 0}</span>
                   </div>
                   
                   <div className="flex justify-between items-center p-3 bg-red-50 rounded-lg">
@@ -404,7 +404,7 @@ export default function DashboardPage() {
                       <AlertTriangle className="h-4 w-4 text-red-600" />
                       <span className="text-sm font-medium text-gray-700">Errores</span>
                     </div>
-                    <span className="font-bold text-red-600">{stats?.errors_today || 0}</span>
+                    <span className="font-bold text-red-600">{stats?.errorsToday || 0}</span>
                   </div>
                   
                   <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
@@ -459,4 +459,4 @@ export default function DashboardPage() {
       </div>
     </div>
   )
-}
+} 
