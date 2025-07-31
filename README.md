@@ -76,9 +76,9 @@ Frontend:
 
 - Tailwind CSS: Framework CSS utilitario para un desarrollo de estilos rápido y consistente.
 
-SWR: Librería de React Hooks para la obtención de datos con caching, revalidación y sincronización en tiempo real.
----
+- SWR: Librería de React Hooks para la obtención de datos con caching, revalidación y sincronización en tiempo real.
 
+---
 Backend:
 ---
 - Python FastAPI: Framework web de alto rendimiento para la construcción de APIs RESTful robustas y eficientes.
